@@ -62,8 +62,6 @@ color: dodgerblue;
 .text-box h1{
     font-size: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-    
 }
 .text-box p{
     margin: 15px 0 20px;
@@ -86,8 +84,6 @@ color: dodgerblue;
     background: black;
     transition: 1s;
 }
-    
-
 .info{
     width: 90%;
     color: #48494B;
@@ -96,7 +92,6 @@ color: dodgerblue;
     margin: 0 auto;
     text-align: center;
 }
-
 .topmain{
     display: flex;
     flex-direction: row-reverse;
@@ -275,8 +270,6 @@ color: dodgerblue;
     margin-top: 20vh;
     margin-left: 20vh;
     text-align-last: left;
-    
-
 }
 .write3 h2{
     font-size: 40px;
@@ -301,7 +294,6 @@ color: dodgerblue;
     flex-direction: column;
     margin: 0 auto;
     text-align-last: left;
-    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .linkk a{
@@ -310,9 +302,7 @@ color: dodgerblue;
     flex-direction: column;
     margin: 0 auto;
     text-align-last: left;
-   
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    
 }
 .linkk:hover{
     color:black;
@@ -324,11 +314,9 @@ color: dodgerblue;
     color: #48494B;
     text-align: center;
     margin-top: 5vh;
-    
 }
 .write4 h1{
     font-size: 50px;
-    
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .write4 p{
