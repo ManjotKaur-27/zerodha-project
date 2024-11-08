@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+
+    padding: 1rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 180px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: grey; 
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.nav-links a:hover{
+    color:dodgerblue;
+}
+a:active{
+color: dodgerblue;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.image img{
+    height: 300px;
+    width: 700px;
+}
+.text-box{
+    width: 90%;
+    color: #48494B;
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+.text-box p{
+    margin: 15px 0 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #48494B;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid dodgerblue;
+    padding: 15px 30px;
+    font-size: 20px;
+    background: dodgerblue;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px rgba(0, 0, 0, 0.938);
+    background: black;
+    transition: 1s;
+}
+    
+
+.info{
+    width: 90%;
+    color: #48494B;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.topmain{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    gap: 20px;
+}
+.info h1{
+    font-size: 40px;
+    text-align: justify;  
+  text-align-last: left;
+  margin: 30px 0 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.info h2{
+    font-size: 25px;
+    margin: 20px 0 20px;
+    text-align: justify;  
+  text-align-last: left;
+    font-family:'Times New Roman', Times, serif
+}
+.info p{
+    font-size: 20px;
+    justify-content: left;
+    text-align: justify;  
+  text-align-last: left;
+    margin: 15px 0 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.small{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.small:hover{
+    color:black;
+    transition: 0.1s;
+}
+.img2{
+    width: 60%;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+}
+.write{
+    width: 40%;
+    color: #48494B;
+    text-align: center;
+}
+.write h1{
+    font-size: 40px;
+    text-align: justify;  
+  text-align-last: left;
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.write h2{
+    font-size: 25px;
+    text-align: justify;  
+  text-align-last: left;
+    font-family:'Times New Roman', Times, serif;
+}
+.write p{
+    font-size: 20px;
+    justify-content: left;
+    text-align: justify;  
+  text-align-last: left;
+    margin: 15px 0 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.small{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.small:hover{
+    color:black;
+    transition: 0.1s;
+}
+
+.linking a{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 20px;
+    gap: 50px;
+
+}
+.linking{
+    margin-left: 80vh;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 2px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.linking a:hover{
+    color:black;
+    transition: 0.1s;
+}
+.between{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20vh;
+}
+.img3  {
+    display: flex;
+    justify-content:flex-start;
+    
+    
+}
+.img3 img{
+    width: 100vh;
+    height: 25vh;
+}
+.write2{
+    width: 90%;
+    color: #48494B;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.write2 h2{
+    font-size: 30px;
+    text-align: justify;  
+  text-align-last: left;
+  margin: 15px 0 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.write2 p{
+    font-size: 20px;
+    margin: 15px 0 18px;
+    text-align: justify;  
+  text-align-last: left;
+  font-family:'Times New Roman', Times, serif;
+}
+.pricing{
+    color: dodgerblue;
+    text-decoration: none;
+    text-align: justify;  
+  text-align-last: left;
+    text-align: center;
+    margin: 15px 0 18px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pricing:hover{
+    color:black;
+    transition: 0.1s;
+
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+}
+.info2{
+    width: 90%;
+    color: #48494B;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.img4{
+    display: flex;
+    justify-content:flex-start;
+}
+.img4 img{
+    width: 80vh;
+    height: 80vh;
+    
+}
+.write3{
+    width: 60%;
+    color: #48494B;
+    margin-top: 20vh;
+    margin-left: 20vh;
+    text-align-last: left;
+    
+
+}
+.write3 h2{
+    font-size: 40px;
+    text-align: justify;  
+  text-align-last: left;
+  padding: 20px 0 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.write3 p{
+    font-size: 20px;
+    padding: 15px 0 15px;
+    text-align: justify;  
+  text-align: left;
+  font-family:'Times New Roman', Times, serif;
+}
+.linkk{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align-last: left;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.linkk a{
+    margin-left: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align-last: left;
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.linkk:hover{
+    color:black;
+    transition: 1s;
+    cursor: pointer;
+}
+.write4{
+    width: 90%;
+    color: #48494B;
+    text-align: center;
+    margin-top: 5vh;
+    
+}
+.write4 h1{
+    font-size: 50px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.write4 p{
+    margin: 15px 0 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #48494B;
+}
+.again{
+    width: 15%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid dodgerblue;
+    padding: 15px 30px;
+    font-size: 20px;
+    background: dodgerblue;
+    cursor: pointer;
+    margin-left: 70vh;
+}
+.again:hover{
+    border: 1px rgba(0, 0, 0, 0.938);
+    background: black;
+    transition: 1s;
+}
+.footer{
+    margin-top: 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 17vh;
+}
